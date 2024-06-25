@@ -1,0 +1,33 @@
+{
+  "name": "rohipos-backend",
+  "version": "1.0.0",
+  "description": "Backend para el sistema POS Rohipos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tu-usuario/rohipos-backend.git"
+  },
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tu-usuario/rohipos-backend/issues"
+  },
+  "homepage": "https://github.com/tu-usuario/rohipos-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.2",
+    "multer": "^1.4.5-lts",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
